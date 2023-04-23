@@ -1,5 +1,7 @@
 package hw_2;
 
+import java.util.Random;
+
 public class Task_1 {
     public Task_1() {}
 
@@ -14,5 +16,24 @@ public static void main(String[] args) {
 public String shuffle(final String s, final int[] index){
 return "";
 }
-     */
+ */
+
+    public static int [] numIndex(String str){
+        int num = str.length();
+        int [] number = new int[num];
+        return number;
+    }
+    public static String shuffle(final String str, final int[] index){
+        char[] strToArray_1 = str.toCharArray();
+        String s ="";
+        int num = str.length();
+        for (int i = 0; i < num; i++){
+            Random random = new Random();
+            int ran = random.nextInt(0, num);
+            index[i] = ran;
+            System.out.print(index[i] + " ");
+            s = s + strToArray_1[ran];
+        }
+        System.out.println();
+        return s;}
 }
