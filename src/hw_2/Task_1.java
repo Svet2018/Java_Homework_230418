@@ -17,12 +17,14 @@ public String shuffle(final String s, final int[] index){
 return "";
 }
  */
-
+    //Метод создает массив длинно равной длине строки
     public static int [] numIndex(String str){
         int num = str.length();
         int [] number = new int[num];
         return number;
     }
+
+    //Метод перетасовывает и выводит массив и перетасованную строку
     public static String shuffle(final String str, final int[] index){
         char[] strToArray_1 = str.toCharArray();
         String s ="";
