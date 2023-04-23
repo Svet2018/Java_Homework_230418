@@ -18,7 +18,7 @@ return "";
 public class Task_0 {
     public Task_0() {}
 
-
+    //Метод подсчитывает драгоценные камни
     public static String findJewelsInStones(String jewels, String stones) {
         char[] strToArray_1 = jewels.toCharArray();
         char[] strToArray_2 = stones.toCharArray();

@@ -4,14 +4,15 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-//        System.out.println("Решение Task_0:");
-//        String jewels = "aB";
-//        System.out.println("Драгоценные камни: " + jewels);
-//        String stones = "aaaAbbbB";
-//        System.out.println("Куча обычных камней: " + stones);
-//        System.out.print("Драгоценных камней в куче обычных камней: ");
-//        System.out.println(Task_0.findJewelsInStones(jewels, stones));
-//        System.out.println();
+
+        System.out.println("Решение Task_0:");
+        String jewels = "aB";
+        System.out.println("Драгоценные камни: " + jewels);
+        String stones = "aaaAbbbB";
+        System.out.println("Куча обычных камней: " + stones);
+        System.out.print("Драгоценных камней в куче обычных камней: ");
+        System.out.println(Task_0.findJewelsInStones(jewels, stones));
+        System.out.println();
 
 //        System.out.println("Решение Task_1:");
 //        final String str = "абвгдежз";
