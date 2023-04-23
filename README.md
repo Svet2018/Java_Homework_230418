@@ -1,1 +1,1 @@
-# Java_Homework_230418
+Ответы на семинар №2 (точка входа Main в src/tasks)
