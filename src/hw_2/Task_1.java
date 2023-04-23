@@ -17,7 +17,7 @@ public String shuffle(final String s, final int[] index){
 return "";
 }
  */
-    //Метод создает массив длинно равной длине строки
+    //Метод создает массив длинной равной длине строки
     public static int [] numIndex(String str){
         int num = str.length();
         int [] number = new int[num];
