@@ -23,22 +23,16 @@ public class Main {
         System.out.print("Сгенерирован массив с индексами: ");
         final int [] index = Task_1.numIndex(str);
         System.out.println("Перетасованная строка: " +  Task_1.shuffle(str, index));
-
+        System.out.println();
 
         //Решение Task_2
-        System.out.println("Решение Task_2:");
-        System.out.print("Введите количество строк в книге от 1 до 10: ");
-        int numStrings = Task_2.numIn();
-//        System.out.print("Введите номер строки в книге: ");
-//        int numberStrings = Task_2.numIn();
-        System.out.print("Введите количество продуктов на которые аллергия: ");
-        int numProd = Task_2.numIn();
-        System.out.println("Введите продукт на который аллергия и на который заменить в формате: продукт1 - продукт2");
-        String f = Arrays.toString(Task_2.foodIn(numProd));
-        Task_2.fileFile();
+
+
+
 
 
 
 
     }
+
 }
