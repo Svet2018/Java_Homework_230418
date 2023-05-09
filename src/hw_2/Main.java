@@ -25,7 +25,6 @@ public class Main {
         System.out.println("Перетасованная строка: " +  Task_1.shuffle(str, index));
         System.out.println();
 
-        //Решение Task_2
 
 
 
