@@ -61,18 +61,6 @@ Sample Output:
         System.out.println();
         str((ArrayList<String>) newListBook, (ArrayList<String>) all);
 
-       // ddd((ArrayList<String>) newListBook, (ArrayList<String>) all);
-
-
-
-
-//        System.out.println(all);
-//        strAll((ArrayList<String>) all);
-//        strAll((ArrayList<String>) newListBook);
-//
-//        change(strAll((ArrayList<String>) newListBook), strAll((ArrayList<String>) all));
-
-
 
     }
 
